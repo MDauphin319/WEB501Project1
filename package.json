@@ -1,0 +1,19 @@
+{
+  "name": "web501project1",
+  "version": "1.0.0",
+  "description": "Website using Gulp and Git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MDauphin319/WEB501Project1.git"
+  },
+  "author": "Matt Dauphin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MDauphin319/WEB501Project1/issues"
+  },
+  "homepage": "https://github.com/MDauphin319/WEB501Project1#readme"
+}

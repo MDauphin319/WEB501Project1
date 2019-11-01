@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 header{
 	background-color: white;
     position: fixed;
@@ -28,14 +33,18 @@ header li a {
 }
 
 body {
-    height: 125vh;
+    height: 120vh;
     font-family: sans-serif;
-    margin-top: 80px;
+    margin-top: 65px;
     padding: 100px;
 }
 
 p{
 	font-size: 20px;
+}
+
+span {
+	padding: 10em;
 }
 
 .flex-parent {
@@ -49,6 +58,7 @@ p{
 	height: auto;
 	border-style: solid;
 	border-color: black;
+	box-shadow: 0 0 25px 0 black;
 }
 
 .stretch-parent {
@@ -57,26 +67,23 @@ p{
 }
 
 .stretch-child {
-	align-content: stretch;
-	padding: 5px;
-	width: 80em;
+	padding: 20px;
+	width: 79.5em;
 	height: auto;
 	border-style: solid;
 	border-color: black;
+	box-shadow: 0 0 25px 0 black;
+	margin-top: 30px;
 }
 
-footer{
-	text-align: center;
-	border-style: solid;
-	border-color: black;
-}
-
-footer * {
-    display: inline;
-}
-
-footer li {
-    margin: 20px;
+.footer{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+	box-shadow: 0 0 25px 0 black;
 }
 
 [class*="col-"] {

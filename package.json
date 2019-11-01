@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/MDauphin319/WEB501Project1/issues"
   },
-  "homepage": "https://github.com/MDauphin319/WEB501Project1#readme"
+  "homepage": "https://github.com/MDauphin319/WEB501Project1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "delete": "^1.1.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.2.0",
+    "gulp-typescript": "^5.0.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.31"
+  }
 }

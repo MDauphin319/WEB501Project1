@@ -33,7 +33,7 @@ header li a {
 }
 
 body {
-    height: 120vh;
+    height: auto;
     font-family: sans-serif;
     margin-top: 65px;
     padding: 100px;
@@ -76,6 +76,32 @@ span {
 	margin-top: 30px;
 }
 
+/* Games.html Styles */
+.flex-container-wrap {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrap    { 
+  flex-wrap: wrap;
+}  
+
+.flex-item-wrap {
+  padding: 5px;
+	width: 400px;
+	height: auto;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 0 0 25px 0 black;
+  margin-top: 30px;
+
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* Footer Styles */
 .footer{
 	position: absolute;
     left: 0;

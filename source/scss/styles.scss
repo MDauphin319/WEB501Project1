@@ -33,7 +33,7 @@ header li a {
 
 body {
     height: auto;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 100px;
 	background-image: url("../images/arcade.jpg");
 	background-position: center;
@@ -66,6 +66,12 @@ img {
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
 	color: white;
+}
+
+address{
+	font-size: 18px;
+	text-align: center;
+	padding: 30px;
 }
 
 /* index.html Styles */

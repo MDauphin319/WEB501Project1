@@ -38,6 +38,7 @@ body {
 	background-image: url("../images/arcade.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 }
 
@@ -226,6 +227,72 @@ address{
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+/* Accordian Styles */
+.accordion {
+  list-style-type: none;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.accordion li {
+  margin: 0;
+  padding: 0;
+}
+
+.accordion button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 63.5em;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Hide the panels to start */
+.accordion-panel {
+  display: none;
+  padding: 1em;
+  background-color: navy;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+	color: white;
+}
+
+.stretch-child-accordian {
+	padding: 20px;
+	width: 78em;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin-bottom: 30px;
+	box-shadow: 0 0 25px 0 black;
+	background-image: url("../images/pixeltown.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 25px 0 black;
+	text-align: center;
+	color: white;
+}
+
+.accordText {
+	height: auto;
+	padding: 20px;
 }
 
 /* Col Class Styles */
